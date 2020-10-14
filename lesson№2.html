@@ -1,0 +1,149 @@
+<meta charset="UTF-8">
+<script>
+
+    //задание №1//
+    /*
+    var a = 1, b = 1, c, d;
+    c = ++a; alert(c);           // 2 это префиксная форма, инкрементирование производится сразу, а возврат — уже с обновленным значением.
+    d = b++; alert(d);           // 1 это постфиксная форма записи сначала происходит возвращение значения, а потом выполняется инкрементирование.
+                                    
+    c = (2+ ++a); alert(c);      // 5 Префиксная форма, т.к предыдущее значение a= 2, и мы еще раз переменную увеличили на 1 (a++) , получается (2 + 3 = 5)
+    d = (2+ b++); alert(d);      // 4 постфиксная форма, предыдущее значение было увеличенно, переменная b вернуло значение 2 и получается (2+ 2 = 4)
+    alert(a);                    // 3 на восьмой строчке переменная "a" стало равно 3, поэтому алерт вывел 3.
+
+    alert(b);     */               // 3 на девятой строке переменная "b" было увеличена, а на 12 строке вернуло значение, т.к постфиксная форма.
+
+    //задание№2//
+
+    /*var a = 2;
+    var x = 1 + (a *= 2);
+    alert(x);*/
+
+
+    //задание№3// 
+  /*
+    let a = +prompt('Введите число а');
+    let b = +prompt('Введите число b');
+
+    if ( a >= 0 && b >= 0 ) {
+        alert( 'Разность чисел ' + (a - b) );
+    } else if ( a < 0 && b < 0 ) {
+        alert( 'Произведение чисел ' + (a * b) );
+    } else {
+        alert( 'Сумма чисел ' + (a + b) ); 
+    } */
+   
+
+   // Задание №4 
+ /*
+    let a = +prompt(' Введите число от 0 до 15 ')
+
+    switch(a) {
+
+        case a:
+         const arr = [];
+         for( let i = a ; i <= 15 ; i++  ) {
+            arr.push(i);
+         }
+        alert( arr );
+        break;
+        
+         } */
+
+
+   // Задание №5
+
+   /*
+   
+    function summ(arg1, arg2) {
+
+         return(arg1 + arg2);
+    }
+
+    function minus(arg1, arg2) {
+
+        return(arg1 - arg2);
+    }
+
+    function multiplication(arg1, arg2) {
+
+        return(arg1 * arg2);
+    }
+
+    function division(arg1, arg2) {
+
+        return(arg1 / arg2);
+    }
+
+   /*
+    summa = summ(5, 6);
+    alert( 'Сумма ' + summa);
+
+     min = minus(6, 5);
+     alert( 'Разность ' + min);
+
+    multi = multiplication(5, 6);
+    alert( 'Произведение ' + multi); 
+
+    div = division(5, 5);
+    alert('Деление ' + div);  */
+
+    // Задание №6 
+
+    /*
+
+    function mathOperation(arg1, arg2, operation) {
+
+        switch(operation) {
+            case '+': 
+            return summ(arg1, arg2);
+            break; 
+
+            case '-': 
+            return minus(arg1, arg2);
+            break;
+
+            case '*': 
+            return multiplication(arg1, arg2);
+            break; 
+
+            case '/': 
+            return division(arg1, arg2);
+            break; 
+        } 
+
+
+    }
+
+    c = mathOperation(7,6,'*');
+    alert(c);  */
+
+    // задание №8 
+
+   /* function power(val,pow) {
+        if(pow > 0) {
+            return val * power(val,pow-1);  
+        }
+        return 1;
+    }
+
+
+   let a = power(10,2);
+   alert(a); */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+</script>
