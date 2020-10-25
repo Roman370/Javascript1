@@ -1,0 +1,97 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header {
+
+    background-image: url(img/fon.jpg);
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.basket_block {
+    margin-left: 550px;
+}
+.basket_btn {
+
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 15px;
+    background-color: cadetblue;
+    text-align: center;
+    cursor: pointer;
+
+   
+
+}
+
+
+
+.basket_list{
+   
+    
+    border-radius: 5px;
+     background-color: white;
+    text-align: center;
+}
+
+.btn_in_basket{
+    width: 100px;
+    background-color: teal;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn_minus {
+    width: 20px;
+    background-color: teal  ;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 75px;
+}
+
+
+
+.basket_list {
+    display: none;
+}
+.basket_list.shown {
+    display: block;
+}
+
+.header_list_item {
+    
+    display: inline;
+    padding: 10px;
+}
+.header_link_item {
+    text-decoration: none; 
+    color: black;
+}
+
+.shop {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    
+}
+
+
+.shop_img_pruduct {
+    width: 200px;
+}
+.shop_img_pruduct_basket{
+    width: 50px;
+}
+
+.footer {
+
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 30px;
+}
