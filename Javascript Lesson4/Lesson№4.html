@@ -1,0 +1,104 @@
+<meta charset="UTF-8">
+
+<script>
+
+    //Задание №1
+/*
+    function numDischarge(n) {
+
+
+        const obj = {};
+
+        if ( n >= 0 && n <= 999) {
+
+            const arrNum = [];
+
+            for (let i = 0; i <= 2; i++) {
+
+                arrNum.push(n % 10);
+                n = Math.trunc(n / 10);
+            }
+
+            obj.units = arrNum[0];
+            obj.decades = arrNum[1];
+            obj.hundreds = arrNum[2];
+
+            return obj
+
+        }
+
+
+
+    }
+
+    const result = numDischarge(282);
+    console.log(result);  */
+
+
+    // Задание №2. 
+
+/*
+    const basket = [200,100,400];
+    let result = basket.reduce(function(sum, current) {
+        return sum + current
+    },0 )
+
+    console.log(result) */
+
+
+
+/*
+    class Basket {
+        _basket = [];
+
+        constructor(...items) {
+            this._basket.push(...items)
+        }
+
+        addItem (item) {
+            this._basket.rush(item)
+
+        }
+
+        calcTotalPrice () {
+            return this._basket.reduce(function(result, curItem ){
+                return result + curItem.price
+            },0)
+        }
+
+       
+    } 
+
+
+    class Item {
+
+    _name = ''
+    _price = 0
+
+    get price () {
+        return this._price
+    } 
+
+    constructor (name, price) {
+        this._name = name 
+        this._price = price
+    }
+
+}
+
+const basketObj = new Basket (new Item( 'Phone', 5000 ), new Item('TV', 10000))
+const totalBasket = basketObj.calcTotalPrice()
+
+
+
+console.log( 'Общая стоимость ' + totalBasket + ' рублей' ) */
+    
+
+
+
+
+
+
+
+
+</script>
